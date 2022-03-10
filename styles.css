@@ -1,0 +1,21 @@
+.flexbox-container{
+    display:flex;
+}
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 2px soild rgb(158, 199, 141);
+    background-color: rgb(226, 206, 206);
+}
+.felxbox-item-1{
+    min-height:100px;
+    margin: 10px;
+    border: 2px soild rgb(158, 199, 141);
+    background-color: rgb(226, 206, 206);
+}
+.felxbox-item-2{
+    min-height: 200px;
+}
+.felxbox-item-3{
+    min-height: 300px;
+}
