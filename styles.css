@@ -1,21 +1,54 @@
-.flexbox-container{
-    display:flex;
+h1 {
+    font-size: 60px;
+    text-align: inline;
+    margin-left: 327px;
+    font-family: sans-serif;
+    color:#5e0730;
 }
-.flexbox-item{
-    width: 200px;
-    margin: 10px;
-    border: 2px soild rgb(158, 199, 141);
-    background-color: rgb(226, 206, 206);
+h3{
+    font-size: 40px;
+    margin-left: 50px;
+    font-family: sans-serif;
+    color:#c07b87;
 }
-.felxbox-item-1{
-    min-height:100px;
-    margin: 10px;
-    border: 2px soild rgb(158, 199, 141);
-    background-color: rgb(226, 206, 206);
-}
-.felxbox-item-2{
-    min-height: 200px;
-}
-.felxbox-item-3{
-    min-height: 300px;
-}
+.week {
+    display: flex;
+    
+  }
+  .name {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    font-size: 20px;
+    padding: 5px;
+    color:  #c07b87;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 10px auto;
+    box-shadow: 
+      -1px -1px  #5e0730, 
+      inset -1px -1px 0 0  #5e0730;
+  }
+  .day {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  }
+  .month {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .week {
+    height: 80px;
+  }
+  
+  .day {
+    color:  #c07b87;
+    padding: 5px;
+    background-color: transparentize(white, 0.30);
+    box-shadow: 
+      -1px -1px  #5e0730, 
+      inset -1px -1px 0 0  #5e0730;
+  }
